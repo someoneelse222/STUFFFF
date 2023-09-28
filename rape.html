@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUCK YOU</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+          var context = new AudioContext();
+        }
+        </script>
+</head>
+<body> 
+    <audio controls>
+        <source src="earrape.ogg" type="audio/ogg">
+        <source src="earrape.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio> 
+<div style="text-align: center;">
+<img src="eyerape.png" alt="FUCK YOU" title="FUCK YOU" height="500"> 
+</div>
+    <script>
+        // Function to generate a random color in hexadecimal format
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        // Function to update the background color
+        function changeBackgroundColor() {
+            const newColor = getRandomColor();
+            document.body.style.backgroundColor = newColor;
+        }
+
+        // Change the background color every 0.25 seconds (250 milliseconds)
+        setInterval(changeBackgroundColor, 250);
+    </script>
+</body>
+</html>
